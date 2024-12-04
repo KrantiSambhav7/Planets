@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="w-full h-screen overflow-hidden">
+    <div class=" absolute top-0 left-0 z-[2] w-full h-screen text-white font-['monument']">
+      <nav class="w-full py-10 px-10 flex justify-between items-center">
+        <h3>PLANETS</h3>
+        <div class="flex  gap-6">
+          <a class="text-sm "  href="">Home</a>
+          <a class="text-sm " href="">About</a>
+          <a class="text-sm " href="">Contact</a>
+        </div>
+      </nav>
+      <div class="absolute top-[10%] left-1/2 -translate-x-1/2 text-center">
+        <div class=" w-full h-[9em] overflow-hidden ">
+          <h1 class="heading h-full text-9xl  font-light ">Earth</h1>
+          <h1 class="heading h-full text-9xl font-light ">Csilla</h1>
+          <h1 class="heading h-full text-9xl font-light ">Venus</h1>
+          <h1 class="heading h-full text-9xl font-light ">Volcanic</h1>
+        </div>
+        <div class="w-full h-[2.5em] overflow-hidden ">
+          <p class="paragraph h-full text-sm font-['monument']">The Earth is a diverse, vibrant, and fragile planet, sustaining life through interconnected ecosystems.</p>
+          <p class="paragraph text-sm font-['monument']">Csilla is a distant, enigmatic world, its icy atmosphere swirling with mysterious gases and extreme weather patterns.</p>
+          <p class="paragraph text-sm font-['monument']">Venus is a distant, enigmatic world, its icy atmosphere swirling with mysterious gases and extreme weather patterns.</p>
+          <p class="paragraph text-sm font-['monument']">Volcanic is a majestic, gas-giant realm, adorned with stunning rings, embodying the wonders of the outer solar system.</p>
+        </div>
+      </div>
+    </div>
+    <canvas id="canvas"></canvas>
+  </div>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
